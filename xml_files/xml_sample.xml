@@ -1,0 +1,24 @@
+<ROOT>
+    <ITEM>
+        <ID>123</ID>
+        <PORTS>
+            <PORT>
+                <NAME>PortA</NAME>
+                <SWC>Diag</SWC>
+            </PORT>
+            <PORT>
+                <NAME>PortB</NAME>
+                <SWC>Com</SWC>
+            </PORT>
+        </PORTS>
+    </ITEM>
+    <ITEM>
+        <ID>456</ID>
+        <PORTS>
+            <PORT>
+                <NAME>PortC</NAME>
+                <SWC>Diag</SWC>
+            </PORT>
+        </PORTS>
+    </ITEM>
+</ROOT>
