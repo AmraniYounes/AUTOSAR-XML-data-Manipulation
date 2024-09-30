@@ -6,13 +6,13 @@ from SwcPortViewer import SwcPortViewer as SPV
 
 # XML files directory
 xml_dir = "../xml_files/"
-xml_file_1_path = f"{xml_dir}dids_swc_mapping.xml"
-xml_file_2_path = f"{xml_dir}rids_swc_mapping.xml"
+xml_file_1_path = f"{xml_dir}xml_sample.xml"
+xml_file_2_path = f"{xml_dir}xml_sample.xml"
 
 # Excel files directories
 excel_dir = "../excel_files/"
-excel_file_1_path = f"{excel_dir}dids_swc_mapping.xlsx"
-excel_file_2_path = f"{excel_dir}rids_swc_mapping.xlsx"
+excel_file_1_path = f"{excel_dir}excel_sample.xlsx"
+excel_file_2_path = f"{excel_dir}excel_sample.xlsx"
 
 class SwcDiffManager(SPV):
     '''
