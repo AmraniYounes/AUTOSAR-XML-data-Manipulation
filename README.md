@@ -93,11 +93,3 @@ Below is an example of the XML structure used in this project:
         </PORTS>
     </ITEM>
 </ROOT>
-
-
-
-Manipulating AUTOSAR XML Data with Python:
-- Developed a class to display ports of a specific SWC (Software Component) in the CLI.
-- Implemented operator overloading to merge data from multiple XML files.
-- Automated the generation of Excel sheets for enhanced data visualization and sorting.
-- Created a report system to highlight differences between XML files for easy comparison.
