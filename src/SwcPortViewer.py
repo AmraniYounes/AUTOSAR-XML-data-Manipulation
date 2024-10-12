@@ -104,7 +104,7 @@ class SwcPortViewer:
         for item in self.root.findall('ITEM'):
             id = item.find('ID').text if item.find('ID') is not None else None
             
-            id = hex(int(id))[2: ].upper() # Format the ID to be like : 0x0FD1
+            id = hex(int(id))[2: ].upper() # Format the ID to be in this format : 0x0FD1
             id = id.zfill(4)               # You can alse remove the .upper() for an ID like this : 0x0fd1 
             id= f"0x{id}"                  # 
 
