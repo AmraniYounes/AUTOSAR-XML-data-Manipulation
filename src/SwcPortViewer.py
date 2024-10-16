@@ -322,16 +322,16 @@ class SwcPortViewer:
 # Test code 
 if __name__ == "__main__":
 
-    obj1 = SwcPortViewer(xml_file_1_path)
-    obj2 = SwcPortViewer(xml_file_2_path)
-    merged_obj = obj1+ obj2
+    # obj1 = SwcPortViewer(xml_file_1_path)
+    # obj2 = SwcPortViewer(xml_file_2_path)
+    # merged_obj = obj1+ obj2
 
-    df = obj1.get_all_ports_of_swc('Diag')
-    if not df.empty:
-        print(df)
+    # df = obj1.get_all_ports_of_swc('Diag')
+    # if not df.empty:
+    #     print(df)
     # # obj1.get_all_ports_of_swc('Diag_Eol')
     # obj2.generate_excel()
-    obj1.generate_excel()
-    merged_obj.generate_excel()
+    # obj1.generate_excel()
+    # merged_obj.generate_excel()
     # merged_obj.print_dataframe_of_xml()
     print()
