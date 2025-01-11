@@ -180,5 +180,5 @@ class CLIConverter(SDM, SPV):
 if __name__ == "__main__":
 
     # obj = CLIConverter(xml_file_1_path, xml_file_2_path)
-    # obj.generate_excel_from_CLI('Diag_Eol')
+    # obj.generate_excel_from_CLI('Diag_SWC')
     print()
