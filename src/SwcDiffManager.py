@@ -302,18 +302,18 @@ class SwcDiffManager(SPV):
             print(f"\nError: {e}")
 
 
-# Test code 
+# Sample code 
 if __name__ == "__main__":    
     
     # obj1 = SwcDiffManager(xml_file_1_path, xml_file_2_path)
     # obj2 = SwcDiffManager(xml_file_1_path, xml_file_2_path)
     # obj3 = obj1 + obj2
 
-    # df = obj1.get_new_ports_in_swc('jdd_2010')
+    # df = obj1.get_new_ports_in_swc('Diag_SWC')
     # if not df.empty:
     #     print(df)
     
-    # df = obj3.get_new_ports_in_swc('Diag_Eol')
+    # df = obj3.get_new_ports_in_swc('Com_SWC')
     # if not df.empty:
     #     print(df)
     # obj3.generate_report()
