@@ -176,7 +176,7 @@ class CLIConverter(SDM, SPV):
             print(f"\nError: {e}")
 
 
-# Test code 
+# Sample code 
 if __name__ == "__main__":
 
     # obj = CLIConverter(xml_file_1_path, xml_file_2_path)
