@@ -6,7 +6,7 @@ This project involves manipulating AUTOSAR-related data stored in XML files. The
 - Adding operator overloading to merge data from different XML files.
 - Generating an Excel sheet for improved viewing and sorting of data.
 - Creating a class to retrieve newly added ports from another XML or generated Excel file.
-- Adding operator overloading to this class as well.
+- Adding operator overloading to this class aswell.
 - Generating a report that highlights the differences between XML files.
 - Implementing a class that converts XML files into a result file showing the differences via command-line args.
 
